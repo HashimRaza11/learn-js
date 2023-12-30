@@ -31,3 +31,27 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+
+
+//***** */
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myLearningname="Github"
+
+let anothername = myLearningname
+anothername ="VsCode"
+
+console.log(myLearningname);
+console.log(anothername);
+
+let userOne ={
+    email :"raza.@gmail.com",
+    upi : "74600@ybl"
+}
+
+let userTwo = userOne
+userTwo.email ="hashim@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
